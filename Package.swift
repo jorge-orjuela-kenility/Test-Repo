@@ -23,7 +23,8 @@ let package = Package(
         .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm", exact: "2.33.4"),
         .package(url: "https://github.com/devicekit/DeviceKit.git", exact: "5.7.0"),
         .package(url: "https://github.com/kishikawakatsumi/KeychainAccess", exact: "4.2.2"),
-        .package(url: "https://github.com/Truvideo/truvideo-sdk-ios-common", exact: "0.0.78")
+        .package(url: "https://github.com/Truvideo/truvideo-sdk-ios-common", exact: "0.0.78"),
+        .package(url: "https://github.com/Truvideo/truvideo-sdk-ios-video-utils", exact: "0.0.3")
     ],
     targets: Target.allTargets
 )
@@ -73,7 +74,8 @@ extension Target {
             name: "TruvideoSdkCameraTarget",
             dependencies: [
                 "TruvideoSdkTarget",
-                "TruVideoMediaUploadTarget"
+                "TruVideoMediaUploadTarget",
+                .product(name: "TruvideoSdkVideoUtils", package: "truvideo-sdk-ios-video-utils")
             ],
             path: "TruvideoSdkCamera"
         ),
