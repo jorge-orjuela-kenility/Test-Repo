@@ -149,7 +149,7 @@ extension Target {
         .binaryTarget(
             name: "TruVideoRuntime",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruVideoRuntime.xcframework.zip",
-            checksum: "6108c74213a7bacc642eeeb9ca2dc5f557dfa0b117651c8aa0c8901c3f5652f2"
+            checksum: "35854f7d8cc4809102d2f46a367fb333328caba851831736de9c7dc87d702fbd"
         )
     ]
 }
