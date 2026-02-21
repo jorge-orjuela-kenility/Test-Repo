@@ -48,7 +48,7 @@ extension Target {
         .binaryTarget(
             name: "TruvideoSdk",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruvideoSdk.xcframework.zip",
-            checksum: "c03f9bc0c002e42fd9d2cc91604c376ac2f3b7d364498223d25599c6ecc246d4"
+            checksum: "c11fa0391c6158e617ad5a0718fd5ded2800a516b0c5e7dfb9aeaa0a88212696"
         ),
         .target(
             name: "TruvideoSdkTarget",
@@ -68,7 +68,7 @@ extension Target {
         .binaryTarget(
             name: "TruvideoSdkCamera",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruvideoSdkCamera.xcframework.zip",
-            checksum: "37d5644aec58da4afd53096d76b4af3346125681463cd1f086e2318f51c2e587"
+            checksum: "9bc37bebb8c1c4a95d019466be45089c55cbdb8f0564615f25ae5f7c1780ac7f"
         ),
         .target(
             name: "TruvideoSdkCameraTarget",
@@ -85,7 +85,7 @@ extension Target {
         .binaryTarget(
             name: "TruvideoSdkMedia",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruvideoSdkMedia.xcframework.zip",
-            checksum: "20631dedf1dc12d18d078402870e75634c0bc099843f4df2d85fc038dfbd2406"
+            checksum: "9175b06d7436385550ef621db7d402a224c50ffbf6009061f94b89f13b38913d"
         ),
         .target(
             name: "TruvideoSdkMediaTarget",
@@ -101,7 +101,7 @@ extension Target {
         .binaryTarget(
             name: "TruVideoApi",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruVideoApi.xcframework.zip",
-            checksum: "ee856727dfd99b49b9e8a8de7af4ece1f3cf4ae92d791d8d47afd1466e62d159"
+            checksum: "3916b0d1eb564b6661d90df30e59b371b8affaaf8aae1f27d48c865badd9e899"
         ),
         .target(
             name: "TruVideoApiTarget",
@@ -117,7 +117,7 @@ extension Target {
         .binaryTarget(
             name: "TruVideoFoundation",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruVideoFoundation.xcframework.zip",
-            checksum: "9adf855a6cdb8d4b7b32b8a07d81ae59757e8e9e36b7da9002a387cfa65760eb"
+            checksum: "fd4e9561db3f632ad5c549d391b874608d9a3cc2fb53e08452eb334cc151359a"
         ),
         .target(
             name: "TruVideoFoundationTarget",
@@ -133,7 +133,7 @@ extension Target {
         .binaryTarget(
             name: "TruVideoMediaUpload",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruVideoMediaUpload.xcframework.zip",
-            checksum: "a0ad5d9332bb871961c45e34b3544724ca844ff0c308d8b30ddbf59a28d359fc"
+            checksum: "2076bd7af3f4a5face7a38f365d06b2261e82e8dc920bd41aed4a7d32d48adb1"
         ),
         .target(
             name: "TruVideoMediaUploadTarget",
@@ -151,7 +151,7 @@ extension Target {
         .binaryTarget(
             name: "TruVideoRuntime",
             url: "https://github.com/jorge-orjuela-kenility/Test-Repo/releases/download/1.0.0/TruVideoRuntime.xcframework.zip",
-            checksum: "35854f7d8cc4809102d2f46a367fb333328caba851831736de9c7dc87d702fbd"
+            checksum: "afb0226f2e9bc0f9c700c3f38cb6315263ab036173b6d6f0505c6d801eea2e4c"
         )
     ]
 }
